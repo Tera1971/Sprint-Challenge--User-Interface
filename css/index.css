@@ -65,6 +65,23 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+nav{
+    display: flex;
+	padding: 20px;
+	text-align: center;	
+	width: 100%;
+    justify-content: space-evenly;
+   
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.jumbo{
+    width: 100%;
+	padding: 20px;
+	text-align: center;
+}
 
 .container {
     width: 800px;
@@ -110,6 +127,36 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.box1{
+    background: teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
