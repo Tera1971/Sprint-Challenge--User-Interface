@@ -69,8 +69,9 @@ nav{
     display: flex;
 	padding: 20px;
 	text-align: center;	
-	width: 100%;
-    justify-content: space-evenly;
+    width: 800px;
+    margin: 0 auto;
+    justify-content: space-between;
    
 }
 nav a{
@@ -78,14 +79,55 @@ nav a{
     color: black;
 }
 .jumbo{
-    width: 100%;
+    width: 800px;
+    margin: 0 auto;
 	padding: 20px;
 	text-align: center;
 }
-
+.city{
+    width: 825px;
+    margin: 0 auto;
+	padding: 20px;
+	text-align: center;  
+}
+.container-about-page{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+.about-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 .container {
     width: 800px;
     margin: 0 auto;
+}
+.plan{
+    display:flex;
+    padding-top: 20px;
+    justify-content: space-evenly;
+    border-top: 2px dashed black;
+}
+.how{
+    border-bottom: 1px dashed black;
+}
+.work{
+    border-bottom: 1px dashed black;
+}
+
+.office{
+    display:flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    border-bottom: 2px dashed black;
+    
+}
+.lets{
+    padding: 20px;
 }
 
 .top-content {
@@ -121,7 +163,6 @@ nav a{
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
