@@ -65,10 +65,69 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+nav{
+    display: flex;
+	padding: 20px;
+	text-align: center;	
+    width: 800px;
+    margin: 0 auto;
+    justify-content: space-between;
+   
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.jumbo{
+    width: 800px;
+    margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+.city{
+    width: 825px;
+    margin: 0 auto;
+	padding: 20px;
+	text-align: center;  
+}
+.container-about-page{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+.about-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 .container {
     width: 800px;
     margin: 0 auto;
+}
+.plan{
+    display:flex;
+    padding-top: 20px;
+    justify-content: space-evenly;
+    border-top: 2px dashed black;
+}
+.how{
+    border-bottom: 1px dashed black;
+}
+.work{
+    border-bottom: 1px dashed black;
+}
+
+.office{
+    display:flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    border-bottom: 2px dashed black;
+    
+}
+.lets{
+    padding: 20px;
 }
 
 .top-content {
@@ -104,12 +163,41 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.box1{
+    background: teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -144,3 +232,47 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: white;
+    color: black;
+  } 
+  
+  .container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+  }
+  
+ 
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+  
